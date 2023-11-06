@@ -12,8 +12,4 @@ public class BattleCruzer extends AirUnit {
         this.armor = 30;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

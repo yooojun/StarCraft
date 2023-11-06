@@ -6,6 +6,7 @@ public abstract class Unit extends Tribe {
     protected double armor;
     protected double power;
     protected String name;
+
     protected char type; // G - gound A - Air B- both
 
     public int getType() {
@@ -25,7 +26,7 @@ public abstract class Unit extends Tribe {
         this.power = power;
     }
 
-    @Override
+
     public String getName() {
         return name;
     }

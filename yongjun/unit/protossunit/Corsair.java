@@ -12,8 +12,4 @@ public class Corsair extends AirUnit {
         this.armor = 12;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

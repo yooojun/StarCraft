@@ -12,8 +12,4 @@ public class Dragoon extends GroundUnit {
         this.type = 'B';
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

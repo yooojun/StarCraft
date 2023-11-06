@@ -12,8 +12,5 @@ public class Mutalisk extends AirUnit {
         this.name = "Mutallisk";
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
+
 }

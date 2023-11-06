@@ -12,8 +12,5 @@ public class Goliath extends GroundUnit {
         this.type = 'B';
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
+
 }

@@ -6,7 +6,7 @@ import StarCraft.yongjun.unit.terranunit.Marine;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Protoss extends Tribe {
+public class Protoss extends Race {
     private static final int MAXZERGUNIT = 4;
     private static final int UNITTYPE = 6;
 

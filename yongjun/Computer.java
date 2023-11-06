@@ -1,11 +1,12 @@
 package StarCraft.yongjun;
 
-import StarCraft.yongjun.tribe.Tribe;
+import StarCraft.yongjun.tribe.Race;
+
 
 public class Computer extends GamePlayer{
 
-    public Computer(String name, Tribe tribe) {
-        super(name, tribe);
-        addUnit(this.tribe);
+    public Computer(String name, Race race) {
+        super(name, race);
+        addUnit(this.race);
     }
 }

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class Zerg extends Tribe {
+public class Zerg extends Race {
     private static final int MAXZERGUNIT = 8;
     private static final int UNITTYPE = 6;
 

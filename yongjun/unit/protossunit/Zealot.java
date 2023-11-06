@@ -11,8 +11,5 @@ public class Zealot extends GroundUnit {
         this.armor = 20;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
+
 }

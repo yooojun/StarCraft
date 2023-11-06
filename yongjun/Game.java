@@ -1,9 +1,6 @@
 package StarCraft.yongjun;
 
-import StarCraft.yongjun.tribe.Protoss;
-import StarCraft.yongjun.tribe.Terran;
-import StarCraft.yongjun.tribe.Tribe;
-import StarCraft.yongjun.tribe.Zerg;
+import StarCraft.yongjun.tribe.*;
 import StarCraft.yongjun.unit.Unit;
 import java.util.InputMismatchException;
 import java.util.LinkedList;
@@ -147,22 +144,22 @@ public class Game {
         for (int i = 0; i < playerNumber; i++) {
             PrintUI.PlayerNameSet(i + 1);
             String nickName = selectName(scanner);
-            Tribe tribe = selectTribe(scanner);
-            Player player = new Player(nickName, tribe);
+            Race race = selectRace(scanner);
+            Player player = new Player(nickName, race);
             players.add(player);
         }
         for (int i = 0; i < computerNumber; i++) {
             String name = "computer";
             String computerName = name + i;
-            Tribe tribe = computerTribe((int) (Math.random() * 3) + 1);
-            Computer computer = new Computer(computerName, tribe);
+            Race race = computerRace((int) (Math.random() * 3) + 1);
+            Computer computer = new Computer(computerName, race);
             computers.add(computer);
         }
 
 
     }
 
-    private Tribe computerTribe(int computerTribe) {
+    private Race computerRace(int computerTribe) {
         switch (computerTribe) {
             case 1:
                 return new Terran();
@@ -175,7 +172,7 @@ public class Game {
         }
     }
 
-    private Tribe selectTribe(Scanner scanner) {
+    private Race selectRace(Scanner scanner) {
         PrintUI.selectTribe();
         int selTirbe = 0;
         while (true) {

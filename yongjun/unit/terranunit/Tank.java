@@ -11,8 +11,5 @@ public class Tank extends GroundUnit {
         this.armor = 15;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
+
 }

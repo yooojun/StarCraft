@@ -12,8 +12,4 @@ public class Carrier extends AirUnit {
         this.armor = 40;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

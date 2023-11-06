@@ -13,8 +13,4 @@ public class Hydralisk extends GroundUnit {
     }
 
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

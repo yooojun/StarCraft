@@ -7,7 +7,7 @@ import StarCraft.yongjun.unit.zergunit.*;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Terran extends Tribe {
+public class Terran extends Race {
     private static final int MAXZERGUNIT = 5;
     private static final int UNITTYPE = 6;
 

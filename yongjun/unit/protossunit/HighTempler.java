@@ -11,9 +11,4 @@ public class HighTempler extends GroundUnit {
         this.armor = 2;
 
     }
-
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

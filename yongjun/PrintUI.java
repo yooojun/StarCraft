@@ -41,7 +41,7 @@ public class PrintUI {
     }
 
     public static void unitList(GamePlayer player) {
-        System.out.println(player.name + " " + player.tribe.getName());
+        System.out.println(player.name + " " + player.race.getName());
         for (int i = 0; i < player.units.size(); i++) {
             System.out.println(i + ". " + player.units.get(i).getName() +
                     "(현재 방어력: " + player.units.get(i).getArmor() + ")");
@@ -75,7 +75,7 @@ public class PrintUI {
     public static void selectTarget(List<GamePlayer> players) {
         System.out.println("공격할 적을 선택하세요(숫자 입력)");
         for (GamePlayer player : players) {
-            System.out.println(player.name + " " + player.tribe.getName());
+            System.out.println(player.name + " " + player.race.getName());
         }
     }
 

@@ -12,8 +12,4 @@ public class Wraith extends AirUnit {
         this.armor = 10;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

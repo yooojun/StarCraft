@@ -13,8 +13,4 @@ public class Valkyrie extends AirUnit {
         this.armor = 12;
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }

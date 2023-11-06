@@ -12,8 +12,5 @@ public class Guardian extends AirUnit {
         this.name = "Guardian";
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
+
 }

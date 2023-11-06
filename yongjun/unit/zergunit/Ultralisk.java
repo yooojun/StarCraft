@@ -12,8 +12,4 @@ public class Ultralisk extends GroundUnit{
         this.name = "Ultralisk";
     }
 
-    @Override
-    public List<Unit> productionUnit() {
-        return null;
-    }
 }
